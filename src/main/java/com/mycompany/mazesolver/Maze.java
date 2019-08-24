@@ -136,14 +136,6 @@ public class Maze {
         }
     }
     
-    public void iterate() {
-        for(int i=0; i<maze.length; i++) {
-            for(int j=0; j<maze[0].length; j++) {
-                returnValue(i, j);
-            }
-        }
-    }
-    
     public Integer returnValue(Integer row, Integer col) {
         return maze[row][col];
     }

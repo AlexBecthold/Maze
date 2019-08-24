@@ -16,8 +16,8 @@ import javax.swing.JFrame;
 public class Main {
 
     public static void main(String[] args) {
-        Integer numRows = 101;
-        Integer numCols = 101;
+        Integer numRows = 35;
+        Integer numCols = 35;
         Maze maze = new Maze(numRows, numCols);
         maze.generate();
         maze.printMaze();
