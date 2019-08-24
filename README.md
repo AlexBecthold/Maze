@@ -68,7 +68,7 @@ public void dfs(Integer row, Integer col) {
         return directions.toArray(new Integer[4]);
     }
 ```
-![DFS Generated Maze](dfsmaze.png)
+![DFS Generated Maze](images\dfsmaze.png)
 
 ### Solution Examples (35x35)
 - Depth-First Search Solution  
